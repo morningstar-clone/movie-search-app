@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .firstDiv {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .movieSearch {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .secondDiv {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .inputBar {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .searchButton {
+    padding: 10px 15px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .searchButton:hover {
+    background-color: #cc5200;
+  }
+  
+  .suggestionList {
+    list-style: none;
+    background: white;
+    color: black;
+    max-width: 60%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .suggestionList li {
+    padding: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .suggestionList li:hover {
+    background: #eee;
+  }
+  
+  .thirdDiv {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .movieDiv {
+    background: #292929;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .movieDiv:hover {
+    transform: scale(1.05);
+  }
+  
+  .imagePoster {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .movieTitle {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .movieYear {
+    font-size: 0.9rem;
+    color: #bbb;
+  }
+  
+  /* Modal Styling */
+  .modalBackground {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modalContent {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 400px;
+    position: relative;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .modalPoster {
+    width: 100px;
+    border-radius: 5px;
+  }
+  
+  
